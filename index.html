@@ -14,9 +14,18 @@
   <h2 id="balance">Balance: 0</h2>
 
   <div class="container">
-
+    <button class="btn" onclick="addBet(10)">10</button>
+    <button class="btn" onclick="addBet(100)">100</button>
+    <button class="btn" onclick="addBet(500)">500</button>
+    <button class="btn" onclick="addBet(1000)">1000</button>
+    <br />
     <input type="number" placeholder="Bet Amount" id="betInput"></input>
     <br>
+    <button class="btn marginBot" onclick="subtractBet(10)">-10</button>
+    <button class="btn marginBot" onclick="subtractBet(100)">-100</button>
+    <button class="btn marginBot" onclick="subtractBet(500)">-500</button>
+    <button class="btn marginBot" onclick="subtractBet(1000)">-1000</button>
+    <br />
     <div>
       <button onclick="downFunction()" id="down" class="btn betButton">From 1 to 11 (2x)</button>
       <h4 id="downBet">0</h4>

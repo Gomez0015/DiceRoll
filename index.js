@@ -231,3 +231,23 @@ function placeBet() {
   }
 
 }
+function addBet(amountToAdd){
+  var bet = parseInt(document.querySelector("#betInput").value);
+  if(isNaN(bet)){
+    bet = 0;
+  }
+
+  document.querySelector("#betInput").value = bet + amountToAdd;
+}
+
+function subtractBet(amountToSubtract){
+  var bet = parseInt(document.querySelector("#betInput").value);
+  if(isNaN(bet)){
+    bet = 0;
+  }
+  if (bet < amountToSubtract){
+    document.querySelector("#betInput").value = 0;
+  }else{
+    document.querySelector("#betInput").value = bet - amountToSubtract;
+  }
+}

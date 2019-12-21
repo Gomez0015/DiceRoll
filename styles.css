@@ -10,29 +10,38 @@
 }
 
 .btn {
-  width: 150px;
+  color: #4ECCA3;
+  font-family: 'Lobster', cursive;
+  border-color: #4ECCA3;
+  height: 25px;
+  font-size: 15px;
 }
 
 .betAmount {
+  text-align: center;
   color: #4ECCA3;
   margin: 30px;
   font-family: 'Lobster', cursive;
   border-color: #4ECCA3;
-  text-align: center;
+}
+.marginBot{
+  margin-bottom: 40px; 
 }
 
 #betInput {
   color: #4ECCA3;
-  margin: 30px;
+  margin: 10px 10px;
   font-family: 'Lobster', cursive;
   border-color: #4ECCA3;
-  width: 125px;
+  width: 150px;
   height: 25px;
-  text-align: center;
   font-size: 20px;
+  text-align: center;
 }
-
-#betButton:hover {
+.betButton{
+  width: 150px;
+}
+.betButton:hover {
   background-color: grey;
 }
 
