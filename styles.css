@@ -1,0 +1,103 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+.btn{
+  width: 150px;
+}
+.betAmount{
+  color: #4ECCA3;
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  border-color: #4ECCA3;
+  text-align: center;
+}
+.hidden{
+    visibility: hidden;
+    position: absolute;
+    left: 450px;
+    top: 600px;
+    z-index: 2;
+}
+
+#betInput{
+    color: #4ECCA3;
+    margin: 30px;
+    font-family: 'Lobster', cursive;
+    border-color: #4ECCA3;
+    width: 125px;
+    height: 25px;
+    text-align: center;
+    font-size: 20px;
+}
+#betButton:hover{
+  background-color: grey;
+}
+
+body {
+  background-color: #393E46;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #4ECCA3;
+}
+
+h2{
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  color: #4ECCA3;
+}
+h3{
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  color: #4ECCA3;
+  text-align: center;
+}
+h4{
+  margin: 10px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  color: #4ECCA3;
+  text-align: center;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 80%;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  margin-left: 270px;
+}
+li {
+  text-align: center;
+  width: 150px;
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+}

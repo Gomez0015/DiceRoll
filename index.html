@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Dicee</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+
+  </head>
+  <body>
+    <button onclick="startRolling()">Admin Button</button>
+    <h3 id="balance">Balance: 0</h3>
+
+    <div class="container">
+
+      <input type="number" placeholder="Bet Amount" id="betInput"></input>
+      <br>
+      <button onclick="downFunction()" id="down" class="btn betButton">From 1 to 11 (2x)</button>
+      <button onclick="middleFunction()" id="middle" class="btn betButton">Just 12 (5x)</button>
+      <button onclick="upFunction()" id="up" class="btn betButton">From 13 to 24 (2x)</button>
+      <ul>
+        <li>
+          <h4 id="downBet">0</h4>
+        </li>
+        <li>
+          <h4 id="middleBet">0</h4>
+        </li>
+        <li>
+          <h4 id="upBet">0</h4>
+        </li>
+      </ul>
+
+      <h1 class="timer">Rolling in 11</h1>
+
+      <h4 class="betAmount">Total Bet Amount: 0</h4>
+
+      <h1 class="hidden">Rolling...</h1>
+      <div class="dice">
+        <p>Dice 1</p>
+        <img class="img1" src="images/dice6.png">
+      </div>
+
+      <div class="dice">
+        <p>Dice 2</p>
+        <img class="img2" src="images/dice6.png">
+      </div>
+
+      <div class="dice">
+        <p>Dice 3</p>
+        <img class="img3" src="images/dice6.png">
+      </div>
+
+      <h2 class="number-rolled">Rolling Soon</h2>
+
+    </div>
+
+      </body>
+      <!-- jQuery -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+      <!-- Javascript -->
+      <script src="index.js"></script>
+    </html>
