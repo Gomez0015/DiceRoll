@@ -88,11 +88,10 @@ ul{
   margin: 0;
   padding: 0;
   display: flex;
-  margin-left: 33%;
 }
 li {
   text-align: center;
-  width: 17%;
+  width: 150px;
 }
 
 footer {
